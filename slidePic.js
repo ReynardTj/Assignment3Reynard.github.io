@@ -26,4 +26,8 @@ function swipeRight() {
 
 }
 
-document.querySelectorAll('pic-nav-btn.prev').addEventListener("click", swipeLeft())
+leftBut = document.getElementById("prev");
+leftBut.addEventListener("click", swipeLeft);
+
+rightBut = document.getElementById("next");
+rightBut.addEventListener("click", swipeRight);
