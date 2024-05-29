@@ -185,7 +185,7 @@ display: none;
 width: 100vw;
 }
 
-.pic-nav-btn {
+.btn {
 position: absolute;
 top: 50%;
 transform: translateY(-50%);
