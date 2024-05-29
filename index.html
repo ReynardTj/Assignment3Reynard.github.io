@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>grangercafe</title>
+        <link rel="icon" href="images/break-time_13375255.png">
+        <meta name="robots" content="noindex,nofollow">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <link href="CSS/styles.css" rel="stylesheet" type="text/css" media="all">
+
+    </head>
+
+    <body>
+        <body>
+            <!-- ============================================ -->
+            <!--                 Navigation                   -->
+            <!-- ============================================ -->
+            
+            <header id="cs-navigation">
+                <div class="cs-container">
+                    <!--Nav Logo-->
+                    <a href="" class="cs-logo" aria-label="back to home">
+                        <img src="https://img1.wsimg.com/isteam/ip/b583e0ec-e75f-4fca-8018-9cf3869ea85a/granger%20logo%20green.png/:/rs=w:608,h:125,cg:true,m/cr=w:608,h:125/qt=q:100/ll" alt="logo" width="210" height="29" aria-hidden="true" decoding="async">
+                    </a>
+                    <!--Navigation List-->
+                    <nav class="cs-nav" role="navigation">
+                        <!--Mobile Nav Toggle-->
+                        <button class="cs-toggle" aria-label="mobile menu toggle">
+                            <div class="cs-box" aria-hidden="true">
+                                <span class="cs-line cs-line1" aria-hidden="true"></span>
+                                <span class="cs-line cs-line2" aria-hidden="true"></span>
+                                <span class="cs-line cs-line3" aria-hidden="true"></span>
+                            </div>
+                        </button>
+                        <!-- We need a wrapper div so we can set a fixed height on the cs-ul in case the nav list gets too long from too many dropdowns being opened and needs to have an overflow scroll. This wrapper acts as the background so it can go the full height of the screen and not cut off any overflowing nav items while the cs-ul stops short of the bottom of the screen, which keeps all nav items in view no matter how mnay there are-->
+                        <div class="cs-ul-wrapper">
+                            <ul id="cs-expanded" class="cs-ul" aria-expanded="false">
+                                <li class="cs-li">
+                                    <a href="" class="cs-li-link cs-active">
+                                        Home
+                                    </a>
+                                </li>
+                                <li class="cs-li">
+                                    <a href="" class="cs-li-link">
+                                        Menu
+                                    </a>
+                                </li>
+                                <li class="cs-li">
+                                    <a href="" class="cs-li-link">
+                                        Locations
+                                    </a>
+                                </li>
+                                <li class="cs-li">
+                                    <a href="" class="cs-li-link">
+                                        About Us
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <a href="" class="cs-button-solid cs-nav-button">Contact Us</a>
+                </div>
+            </header>
+
+            <main>
+                <section id="hero-229">
+                    <div class="cs-container">
+                        <div class="cs-flex-group">
+                            <span class="cs-topper">best cafe in town</span>
+                            <h1 class="cs-title">GRANGER CAFE</h1>
+                            <p class="cs-text">
+                                Have a cup of coffee and some snacks at the best cafe in town!
+                            </p>
+                            <a href="" class="cs-button-solid">Weekly Specials</a>
+                            <a href="" class="cs-button-transparent">
+                                <img class="cs-img" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Hero/play.svg" alt="play icon" width="17" height="17">
+                                Order Now!
+                            </a>
+                        </div>
+                    </div>
+            
+                    <!-- Background Image -->
+                    <picture class="cs-picture">
+                        <!-- <source media="(max-width: 600px)" srcset="images/coffee.jpg">
+                        <source media="(min-width: 601px)" srcset="images/coffee.jpg"> -->
+                        <img loading="lazy" decoding="async" src="https://images.pexels.com/photos/312418/pexels-photo-312418.jpeg" alt="coffee background" width="2250" height="1500" aria-hidden="true">
+                    </picture>
+                </section>
+                
+                <!-- ============================================ -->
+                <!--                    Slider                    -->
+                <!-- ============================================ -->
+                <section id="slider">
+                    <div class="pic-container">
+                        <div class="pic-slider">
+                          <span class="pic right"><img src="images/pexels-chevanon-302901.jpg" alt="A Barista making latte art in the cafe" ></span>
+                          <span class="pic"><img src="images/pexels-content-pixie-1405717-2836945.jpg" alt="A Coffee placed on top of a white book placed on a table" ></span>
+                          <span class="pic"><img src="images/pexels-stockphotoartist-2220618.jpg" alt="A cake with strawberries with a croissant and a cookie on the background" ></span>
+                        </div>
+                        <button class="pic-nav-btn prev" onclick="swipeLeft();changeLeft()">❮</button>
+                        <button class="pic-nav-btn next" onclick="swipeRight();changeRight()">❯</button>
+                    </div>
+                  
+                </section>
+
+                
+
+                <!-- ============================================ -->
+                <!--                    Menu                      -->
+                <!-- ============================================ -->
+
+                <section id="menu-1001">
+                    <div class="cs-container">
+                        <div class="cs-content">
+                            <picture class="cs-wrapper" aria-hidden="true">
+                                <img class="cs-decal" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Food-Menu/decal1.svg" decoding="async" alt="decal" width="181" height="36">
+                            </picture>
+                            <h2 class="cs-title">Our Specials</h2>
+                            <p class="cs-text">
+                                The best food recomendation from our Chefs and coffee suggestion from our Baristas along with some all time customer favorite dishess.
+                            </p>
+                        </div>
+                        <ul class="cs-card-group">
+                            <li class="cs-item">
+                                <picture class="cs-picture"  aria-hidden="true">
+                                    <img loading="lazy" decoding="async" src="https://images.pexels.com/photos/6294361/pexels-photo-6294361.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="egg omelette on a pan" width="160" height="160">
+                                    </picture>
+                                    <div class="cs-info">
+                                    <h3 class="cs-h3">
+                                        <span class="cs-name">Omelette</span>
+                                        <span class="cs-price">
+                                            $14 
+                                        </span>
+                                    </h3>
+                                    <p class="cs-item-p">
+                                        Omelette eggs with different fillings that you can choose
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="cs-item">
+                                <picture class="cs-picture"  aria-hidden="true">
+                                    <img loading="lazy" decoding="async" src="https://images.pexels.com/photos/2530910/pexels-photo-2530910.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="a cup of latte" width="160" height="160">
+                                    </picture>
+                                    <div class="cs-info">
+                                    <h3 class="cs-h3">
+                                        <span class="cs-name">Cafe Latte</span>
+                                        <span class="cs-price">
+                                            $10
+                                        </span>
+                                    </h3>
+                                    <p class="cs-item-p">
+                                        Made of authentic coffee beans imported from various countries
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="cs-item">
+                                <picture class="cs-picture"  aria-hidden="true">
+                                    <img loading="lazy" decoding="async" src="https://images.pexels.com/photos/4623075/pexels-photo-4623075.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="a plate of french toast" width="160" height="160">
+                                    </picture>
+                                    <div class="cs-info">
+                                    <h3 class="cs-h3">
+                                        <span class="cs-name">French Toast</span>
+                                        <span class="cs-price">
+                                            $18
+                                        </span>
+                                    </h3>
+                                    <p class="cs-item-p">
+                                        Bread soaked in beaten eggs and pan fried with extra toppings that you can choose
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="cs-item">
+                                <picture class="cs-picture"  aria-hidden="true">
+                                    <img loading="lazy" decoding="async" src="https://images.pexels.com/photos/3622474/pexels-photo-3622474.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="a bowl of acai" width="160" height="160">
+                                    </picture>
+                                    <div class="cs-info">
+                                    <h3 class="cs-h3">
+                                        <span class="cs-name">Acai</span>
+                                        <span class="cs-price">
+                                            $20
+                                        </span>
+                                    </h3>
+                                    <p class="cs-item-p">
+                                        A brazilian snack made from frozen and mashed fruits.
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                        <a href="" class="cs-button-solid">Reserve Your Table</a>
+                    </div>
+                    <!--Static background is in CSS as a tiled pattern-->
+                </section>
+                                
+
+                <!-- ============================================ -->
+                <!--                Contact Form                  -->
+                <!-- ============================================ -->
+
+                <section id="cs-contact-242">
+                    <div class="cs-container">
+                        <div class="cs-content">
+                            <span class="cs-topper">Here To Help</span>
+                            <h2 class="cs-title">Contact Us</h2>
+                            <p class="cs-text">
+                                Leave us any comment or suggestion that will help us improve our cafe
+                            </p>
+                        </div>
+                        <!-- Form -->
+                        <form id="cs-form-242" name="Contact Form" method="post">
+                            <label class="cs-label">
+                                Name
+                                <input class="cs-input" required type="text" id="name-242" name="name" placeholder="John/Jane Doe">
+                            </label>
+                            <label class="cs-label">
+                                Email
+                                <input class="cs-input" required type="text" id="email-242" name="email" placeholder="name@company.com">
+                            </label>
+                            <label class="cs-label">
+                                Phone
+                                <input class="cs-input" required type="text" id="phone-242" name="phone" placeholder="+1 (206) 987-6543">
+                            </label>
+                            <label class="cs-label">
+                                How Did You Find Us
+                                <input class="cs-input" type="text" id="find-242" name="find-us" placeholder="Social Media, Family, Friend...">
+                            </label>
+                            <label class="cs-label cs-label-message">
+                                Message
+                                <textarea class="cs-input cs-textarea" required name="Message" id="message-242" placeholder="Hello, I’m interested in..."></textarea>
+                            </label>
+                            <button class="cs-button-solid cs-submit" type="submit">Submit Message Now</button>
+                        </form>
+                        <!-- Contact Info -->
+                        <div class="cs-right-section">
+                            <ul class="cs-ul">
+                                <li class="cs-li">
+                                    <picture class="cs-icon-wrapper">
+                                        <img aria-hidden="true" src="https://csimg.nyc3.digitaloceanspaces.com/Contact-Page/mail.svg" alt="mail icon" class="cs-icon" width="36" height="36" decoding="async">
+                                    </picture>
+                                    <div class="cs-flex-group">
+                                        <span class="cs-header">Email</span>
+                                        <a href="mailto:support@yourdomain.com" class="cs-link">kelly.grangercafe@gmail.com</a>
+                                    </div>
+                                </li>
+                                <li class="cs-li">
+                                    <picture class="cs-icon-wrapper">
+                                        <img aria-hidden="true" src="https://csimg.nyc3.digitaloceanspaces.com/Contact-Page/phone.svg" alt="phone icon" class="cs-icon" width="36" height="36" decoding="async">
+                                    </picture>
+                                    <div class="cs-flex-group">
+                                        <span class="cs-header">Phone</span>
+                                        <a href="tel:206-987-6543" class="cs-link">03 9913 9542</a>
+                                    </div>
+                                </li>
+                                <li class="cs-li">
+                                    <picture class="cs-icon-wrapper">
+                                        <img aria-hidden="true" src="https://csimg.nyc3.digitaloceanspaces.com/Contact-Page/pin.svg" alt="address icon" class="cs-icon" width="36" height="36" decoding="async">
+                                    </picture>
+                                    <div class="cs-flex-group">
+                                        <span class="cs-header">Address</span>
+                                        <a href="" class="cs-link"><span class="cs-block">49a Grange Road,</span> Caulfield East Victoria 3145, Australia</a>
+                                    </div>
+                                </li>
+                            </ul>
+                            <!-- Picture -->
+                            <picture class="cs-picture">
+                                <img class="cs-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Contact-Page/map.jpg" alt="google map" width="462" height="438">
+                            </picture>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- ============================================ -->
+                <!--                   Gallery                    -->
+                <!-- ============================================ -->
+
+                <section id="gallery-45">
+                    <div class="cs-container">
+                        <div class="cs-content">
+                            <span class="cs-topper">Gallery</span>
+                            <h2 class="cs-title">Our Best Moments</h2>
+                            <p class="cs-text">
+                                Come and share your best moments while enjoying a cup of coffee or just hanging out in our cafe!
+                            </p>
+                        </div>
+                        <ul class="cs-image-group">
+                            <!-- Image 1 -->
+                            <li class="cs-item">
+                                <picture class="cs-picture">
+                                    <img loading="lazy" decoding="async" src="https://images.pexels.com/photos/1684151/pexels-photo-1684151.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="a cup of coffee and a notebook placed on a table" width="346" height="346">
+                                </picture>
+                            </li>
+                            <!-- Image 2 -->
+                            <li class="cs-item">
+                                <picture class="cs-picture">
+                                    <img loading="lazy" decoding="async" src="https://images.pexels.com/photos/832827/pexels-photo-832827.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="2 people taking a photo of their cup of coffee" width="346" height="346">
+                                </picture>
+                            </li>
+                            <!-- Image 3 -->
+                            <li class="cs-item">
+                                <picture class="cs-picture">
+                                    <img aria-hidden="true" loading="lazy" decoding="async" src="https://images.pexels.com/photos/324028/pexels-photo-324028.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="making coffee with a coffee machine" width="346" height="346">
+                                </picture>
+                            </li>
+                            <!-- Image 4 -->
+                            <li class="cs-item">
+                                <picture class="cs-picture">
+                                    <img aria-hidden="true" loading="lazy" decoding="async" src="https://images.pexels.com/photos/1653253/pexels-photo-1653253.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="drinking a cup of coffee in the afternoon" width="346" height="346">
+                                </picture>
+                            </li>
+                        </ul>
+                        <a href="" class="cs-button-solid">View Full Gallery</a>
+                    </div>
+                </section>
+                                
+            </main>
+
+        </body>
+
+        <!-- ============================================ -->
+        <!--                   Footer                     -->
+        <!-- ============================================ -->
+
+        <footer id="cs-footer-108">
+            <div class="cs-container">
+                <ul class="cs-ul">
+                    <li class="cs-li">
+                        <a href="" class="cs-link">Home</a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="" class="cs-link">About</a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="" class="cs-link">Services</a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="" class="cs-link">Gallery</a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="" class="cs-link">Contact</a>
+                    </li>
+                </ul>
+                <span class="cs-copyright">© 2024 Copyright grangercafe</span>
+            </div>
+        </footer>
+    </body>
+<script src="js/slider.js"></script>
+</html>
